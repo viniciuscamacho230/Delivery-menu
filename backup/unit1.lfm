@@ -1,0 +1,212 @@
+object Form1: TForm1
+  Left = 472
+  Height = 360
+  Top = 213
+  Width = 394
+  Caption = 'AMTECH LANCHES'
+  ClientHeight = 360
+  ClientWidth = 394
+  Color = clActiveBorder
+  LCLVersion = '3.4.0.0'
+  object CheckBoxCachorroQuente: TCheckBox
+    Left = 64
+    Height = 19
+    Top = 64
+    Width = 109
+    Caption = 'Cachorro Quente'
+    TabOrder = 0
+  end
+  object CheckBoxBauruSimples: TCheckBox
+    Left = 64
+    Height = 19
+    Top = 92
+    Width = 93
+    Caption = 'Bauru Simples'
+    TabOrder = 1
+  end
+  object CheckBoxBauruOvo: TCheckBox
+    Left = 64
+    Height = 19
+    Top = 120
+    Width = 101
+    Caption = 'Bauru com Ovo'
+    TabOrder = 2
+  end
+  object CheckBoxHamburguer: TCheckBox
+    Left = 64
+    Height = 19
+    Top = 148
+    Width = 86
+    Caption = 'Hambúrguer'
+    TabOrder = 3
+  end
+  object CheckBoxChessBurguer: TCheckBox
+    Left = 64
+    Height = 19
+    Top = 176
+    Width = 91
+    Caption = 'ChessBurguer'
+    TabOrder = 4
+  end
+  object CheckBoxRefrigeranteLata: TCheckBox
+    Left = 64
+    Height = 19
+    Top = 204
+    Width = 107
+    Caption = 'Refrigerante Lata'
+    TabOrder = 5
+  end
+  object edtQuantCachorro: TEdit
+    Left = 248
+    Height = 23
+    Top = 60
+    Width = 80
+    TabOrder = 6
+  end
+  object edtQuantBauru: TEdit
+    Left = 248
+    Height = 23
+    Top = 88
+    Width = 80
+    TabOrder = 7
+  end
+  object edtQuantBauruOvo: TEdit
+    Left = 248
+    Height = 23
+    Top = 116
+    Width = 80
+    TabOrder = 8
+  end
+  object edtQuantHamburguer: TEdit
+    Left = 248
+    Height = 23
+    Top = 144
+    Width = 80
+    TabOrder = 9
+  end
+  object edtQuantChessBurguer: TEdit
+    Left = 248
+    Height = 23
+    Top = 172
+    Width = 80
+    TabOrder = 10
+  end
+  object edtQuantRefrigerante: TEdit
+    Left = 248
+    Height = 23
+    Top = 200
+    Width = 80
+    TabOrder = 11
+  end
+  object btnFinalizarPedido: TButton
+    Left = 226
+    Height = 25
+    Top = 256
+    Width = 104
+    Caption = 'Finalizar Pedido'
+    TabOrder = 12
+    OnClick = btnFinalizarPedidoClick
+  end
+  object CheckBoxEntregaSim: TCheckBox
+    Left = 64
+    Height = 19
+    Top = 256
+    Width = 38
+    Caption = 'Sim'
+    TabOrder = 13
+    OnClick = CheckBoxEntregaSimClick
+  end
+  object edtValorTotalPedidos: TEdit
+    Left = 130
+    Height = 23
+    Top = 288
+    Width = 200
+    TabOrder = 14
+  end
+  object Label1: TLabel
+    Left = 64
+    Height = 15
+    Top = 294
+    Width = 63
+    Caption = 'Valor Total : '
+  end
+  object Label2: TLabel
+    Left = 184
+    Height = 15
+    Top = 64
+    Width = 43
+    Caption = 'R$ 12,00'
+  end
+  object Label3: TLabel
+    Left = 184
+    Height = 15
+    Top = 92
+    Width = 43
+    Caption = 'R$ 13,00'
+  end
+  object Label4: TLabel
+    Left = 184
+    Height = 15
+    Top = 120
+    Width = 43
+    Caption = 'R$ 15,00'
+  end
+  object Label5: TLabel
+    Left = 184
+    Height = 15
+    Top = 148
+    Width = 43
+    Caption = 'R$ 20,00'
+  end
+  object Label6: TLabel
+    Left = 184
+    Height = 15
+    Top = 176
+    Width = 43
+    Caption = 'R$ 25,00'
+  end
+  object Label7: TLabel
+    Left = 184
+    Height = 15
+    Top = 204
+    Width = 40
+    Caption = 'R$  8,00'
+  end
+  object CheckBoxEntregaNao: TCheckBox
+    Left = 112
+    Height = 19
+    Top = 256
+    Width = 40
+    Caption = 'Não'
+    TabOrder = 15
+    OnClick = CheckBoxEntregaNaoClick
+  end
+  object Label8: TLabel
+    Left = 64
+    Height = 15
+    Top = 237
+    Width = 154
+    Caption = 'Deseja embalar para entrega?'
+  end
+  object Label9: TLabel
+    Left = 107
+    Height = 15
+    Top = 32
+    Width = 48
+    Caption = 'Cardapio'
+  end
+  object Label10: TLabel
+    Left = 188
+    Height = 15
+    Top = 32
+    Width = 30
+    Caption = 'Preço'
+  end
+  object Label11: TLabel
+    Left = 256
+    Height = 15
+    Top = 32
+    Width = 62
+    Caption = 'Quantidade'
+  end
+end
