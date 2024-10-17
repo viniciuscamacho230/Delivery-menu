@@ -16,4 +16,4 @@ Este repositório contém um sistema para gerenciamento de pedidos de lanches, p
 
 1. **Clone o Repositório**
    ```bash
-   git clone 
+   git clone https://github.com/viniciuscamacho230/Delivery-menu.git
